@@ -8,7 +8,10 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="olibc/build" />
+  <project path="build" name="olibc/build" >
+    <copyfile src="core/BUILD.sh" dest="BUILD.sh" />
+  </project>
+
   <project path="bionic" name="olibc/bionic" />
   <project path="device" name="olibc/device" />
 
