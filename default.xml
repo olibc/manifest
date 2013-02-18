@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+	  fetch=".." />
+  <default revision="master"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="build" name="olibc/build" />
+  <project path="bionic" name="olibc/bionic" />
+  <project path="device" name="olibc/device" />
+
+  <project path="external/gtest" name="olibc/gtest" />
+  <project path="external/kconfig" name="olibc/kconfig" />
+  <project path="external/safe-iop" name="olibc/safe-iop" />
+  <project path="external/stlport" name="olibc/stlport" />
+  <project path="external/zlib" name="olibc/zlib" />
+
+  <project path="prebuilts/gcc" name="olibc/prebuilt-gnu-toolchains" />
+
+</manifest>
