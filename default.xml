@@ -12,7 +12,7 @@
     <copyfile src="core/BUILD.sh" dest="BUILD.sh" />
   </project>
 
-  <project path="bionic" name="olibc/bionic" />
+  <project path="bionic" name="olibc/olibc" />
   <project path="device" name="olibc/device" />
 
   <project path="external/gtest" name="olibc/gtest" />
