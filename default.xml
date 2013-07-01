@@ -9,7 +9,7 @@
            sync-j="4" />
 
   <project path="build" name="olibc/build" >
-    <copyfile src="core/BUILD.sh" dest="BUILD.sh" />
+    <copyfile src="core/toplevel-Makefile" dest="Makefile" />
   </project>
 
   <project path="bionic" name="olibc/olibc" />
