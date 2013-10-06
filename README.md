@@ -16,7 +16,7 @@ To install, initialize, and configure Repo, follow these steps:
 
 * Download the Repo script and ensure it is executable:
   ```
-  $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+  $ curl  http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
   $ chmod a+x ~/bin/repo
   ```
 
